@@ -1,15 +1,16 @@
-import propTypes from 'prop-types';
+import React from 'react';
+import PropTypes from 'prop-types';
 
-const Display = ({ Total }) => <h1>{Total}</h1>;
-
-export default Display;
-
-
-Display.defaultProps = {
-  Total: '0',
-}
+const Display = ({ result }) => (
+  <h1>{result}</h1>
+);
 
 Display.propTypes = {
-  Total: propTypes.string,
+  result: PropTypes.string,
+};
 
-}
+Display.defaultProps = {
+  result: '0',
+};
+
+export default Display;
