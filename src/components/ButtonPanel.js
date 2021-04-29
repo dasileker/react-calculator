@@ -37,6 +37,6 @@ const ButtonPanel = () => (
       <Button name="=" />
     </div>
   </>
-  );
+);
 
 export default ButtonPanel;
