@@ -24,9 +24,31 @@ const calculate = ({ total, next, operation }, button) => {
     if (next && operation && total) {
       return { next: operate(next, total, operation) };
     }
+
   } else if (isOperation(button)) {
     if (button === '+/-') {
+    } if (total) {
+      return { operation, next, total: operate(total, '-1', 'X') };
+    } if (next) {
+      return { next: operate(next, '-1', 'X') };
+    }
 
+  } else if (button === '%') {
+    if (total) {
+      return { next, operation, total: operate(next, operate(total, '100', '÷'), 'X') };
+    }
+
+  } else {
+    if (total) {
+      return {
+        next: operate(next, total, operation),
+        operation: button,
+      };
+    } if (next) {
+      return {
+        next,
+        operation: button,
+      };
     }
   }
 }
