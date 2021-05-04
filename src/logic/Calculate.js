@@ -17,6 +17,16 @@ const appendNum = (data, number) => {
   return `${data}${number}`
 };
 
-const calculate = ({ tootal, next, operation }, button) => {
-  if 
+const calculate = ({ total, next, operation }, button) => {
+  if (button == 'AC') {
+    return {};
+  } if (button == '=') {
+    if (next && operation && total) {
+      return { next: operate(next, total, operation) };
+    }
+  } else if (isOperation(button)) {
+    if (button === '+/-') {
+
+    }
+  }
 }
