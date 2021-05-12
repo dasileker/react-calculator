@@ -1,0 +1,12 @@
+.button-panel {
+  display: flex;
+  flex-direction: column;
+}
+
+.button-panel > div {
+  height: 100px;
+}
+
+.button-panel button {
+  height: 100%;
+}
