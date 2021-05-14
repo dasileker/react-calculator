@@ -1,7 +1,6 @@
 body {
-  background:url(/src/Components/img.jpg) no-repeat;
+  background: url(/src/Components/img.jpg) no-repeat;
   background-size: cover;
-
 }
 
 .calculator {

@@ -1,7 +1,5 @@
 import React from 'react';
-
 import calculate from '../logic/calculate';
-
 import Display from './Display';
 import ButtonPanel from './ButtonPanel';
 import './App.css';
