@@ -1,0 +1,19 @@
+.button-panel {
+  display: flex;
+  flex-direction: column;
+  background: black;
+}
+
+.button-panel > div {
+  height: 100px;
+}
+
+.button-panel button {
+  height: 100%;
+  color: black;
+}
+
+.button-panel button:hover {
+  color: brown;
+  background-color: black;
+}

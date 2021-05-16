@@ -12,7 +12,7 @@ const operate = (num1, num2, op) => {
     case '-':
       result = big1.minus(big2);
       break;
-    case 'X':
+    case 'x':
       result = big1.times(big2);
       break;
     case '÷':

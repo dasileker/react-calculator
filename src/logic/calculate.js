@@ -1,6 +1,6 @@
-import operate from './Operate';
+import operate from './operate';
 
-const isOperation = (op) => ['X', '-', '+', '÷', '+/-', '%'].indexOf(op) > -1;
+const isOperation = op => ['x', '-', '+', '÷', '+/-', '%'].indexOf(op) > -1;
 
 const appendNum = (data, number) => {
   if (!data) {
@@ -9,7 +9,7 @@ const appendNum = (data, number) => {
 
   if (
     (data === '0' && number === '0')
-    || (number === '.' && data.indexOf('.') > -1)
+        || (number === '.' && data.indexOf('.') > -1)
   ) {
     return data;
   }
@@ -18,6 +18,9 @@ const appendNum = (data, number) => {
 };
 
 const calculate = ({ total = null, next = null, operation = null }, button) => {
+  if ((total && total.startsWith('Error')) || (next && next.startsWith('Error'))) {
+    return calculate({ total: null, next: null, operation: null }, button);
+  }
   if (button === 'AC') {
     return { total: null, next: null, operation: null };
   } if (button === '=') {
@@ -27,13 +30,17 @@ const calculate = ({ total = null, next = null, operation = null }, button) => {
   } else if (isOperation(button)) {
     if (button === '+/-') {
       if (total) {
-        return { operation, next, total: operate(total, '-1', 'X') };
-      } if (next) {
-        return { next: operate(next, '-1', 'X'), total: null, operation: null };
+        return { operation, next, total: operate(total, '-1', 'x') };
+      }
+      if (next) {
+        return { next: operate(next, '-1', 'x'), total: null, operation: null };
       }
     } else if (button === '%') {
       if (total) {
-        return { next, operation, total: operate(next, operate(total, '100', '÷'), 'X') };
+        return { next, operation, total: operate(total, '100', '÷') };
+      }
+      if (next) {
+        return { next: operate(next, '100', '÷'), operation, total };
       }
     } else if (total && operation && next) {
       return {
@@ -56,7 +63,7 @@ const calculate = ({ total = null, next = null, operation = null }, button) => {
     }
   } else if (operation) {
     return { total: appendNum(total, button), next, operation };
-  } else if (next || button !== '0') {
+  } else {
     return { next: appendNum(next, button), total: null, operation: null };
   }
 
