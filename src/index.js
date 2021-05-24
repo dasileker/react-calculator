@@ -1,12 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './Components/App';
+// import { BrowserRouter } from 'react-router-dom';
+import Routes from './Components/Routes';
+// import App from './Components/App';
+// import NavBar from './Components/Nav';
+// import Home from './Components/Home';
+// import Quote from './Components/Quote';
 
 import './index.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Routes/>
   </React.StrictMode>,
   document.getElementById('root'),
 );

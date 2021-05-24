@@ -28,10 +28,13 @@ class App extends React.Component {
 
   render() {
     return (
+      <>
       <div className="calculator">
         <Display result={this.result} />
         <ButtonPanel clickHandler={this.handleClick} />
       </div>
+
+        </>
     );
   }
 }
