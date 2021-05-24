@@ -12,7 +12,7 @@ body {
 }
 
 .navbar {
-  margin-top: -70px;
+  margin-top: -81px;
   background: brown;
   width: 1325px;
 }
@@ -33,7 +33,7 @@ body {
 }
 
 .title {
-  margin-left: 20px;
+  margin-left: 30px;
   color: green;
 }
 
@@ -52,4 +52,17 @@ body {
 
 .day-quote span {
   color: white;
+}
+
+.home-title {
+  margin-top: -310px;
+}
+
+.text {
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.quote-nav {
+  margin-top: -145px;
 }

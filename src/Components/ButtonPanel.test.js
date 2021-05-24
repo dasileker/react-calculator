@@ -24,7 +24,7 @@ describe('ButtonPanel Component', () => {
 
     const panel = Enzyme.shallow(<ButtonPanel clickHandler={clickHandler} />);
 
-    panel.find(Button).forEach((button) => {
+    panel.find(Button).forEach(button => {
       expect(button.get(0).props.clickHandler).toEqual(clickHandler);
     });
   });
