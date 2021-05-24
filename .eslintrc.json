@@ -28,7 +28,7 @@
         ]
       }
     ],
-    "import/no-unresolved": "off",
+    "import/no-unresolved": "infinite",
     "no-shadow": "off",
     "arrow-parens": [
       "error",
