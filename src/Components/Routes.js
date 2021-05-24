@@ -5,17 +5,15 @@ import NavBar from './Nav';
 import Home from './Home';
 import App from './App';
 
-const Routes = () => {
-  return (
-    <BrowserRouter>
-      <NavBar/>
-      <Switch>
-        <Route path="/home" component={Home} exact />
-        <Route path='/app' component={App} exact />
-        <Route path='/quote' component={Quote} exact />
-      </Switch>
-    </BrowserRouter>
-  )
-};
+const Routes = () => (
+  <BrowserRouter>
+    <NavBar />
+    <Switch>
+      <Route path="/home" component={Home} exact />
+      <Route path="/app" component={App} exact />
+      <Route path="/quote" component={Quote} exact />
+    </Switch>
+  </BrowserRouter>
+);
 
 export default Routes;

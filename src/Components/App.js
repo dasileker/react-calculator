@@ -16,25 +16,25 @@ class App extends React.Component {
     this.handleClick = this.handleClick.bind(this);
   }
 
+  handleClick(name) {
+    this.setState((state) => calculate(state, name));
+  }
+
   get result() {
     const { next, operation, total } = this.state;
 
     return `${next || ''}${operation || ''}${total || ''}`;
   }
 
-  handleClick(name) {
-    this.setState(state => calculate(state, name));
-  }
-
   render() {
     return (
       <>
-      <div className="calculator">
-        <Display result={this.result} />
-        <ButtonPanel clickHandler={this.handleClick} />
-      </div>
+        <div className="calculator">
+          <Display result={this.result} />
+          <ButtonPanel clickHandler={this.handleClick} />
+        </div>
 
-        </>
+      </>
     );
   }
 }

@@ -7,4 +7,4 @@ describe('Home  Componenet', () => {
     const div = document.createElement('div');
     ReactDOM.render(<Quote />, div);
   });
-})
+});
