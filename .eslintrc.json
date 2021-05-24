@@ -4,7 +4,6 @@
     "es6": true,
     "jest": true
   },
-  "parser": "babel-eslint",
   "parserOptions": {
     "ecmaFeatures": {
       "jsx": true
@@ -29,9 +28,12 @@
         ]
       }
     ],
-    "react/react-in-jsx-scope": "off",
     "import/no-unresolved": "off",
-    "no-shadow": "off"
+    "no-shadow": "off",
+    "arrow-parens": [
+      "error",
+      "as-needed"
+    ]
   },
   "ignorePatterns": [
     "dist/",
