@@ -14,7 +14,7 @@ body {
 .navbar {
   /* margin-top: -81px; */
   background: brown;
-  width: 1325px;
+  /* width: 1325px; */
 }
 
 .navbar h2 {
@@ -55,7 +55,7 @@ body {
 }
 
 /* .home-title {
-  margin-top: -310px;
+  margin-top: -410px;
 } */
 
 .text {
@@ -63,6 +63,6 @@ body {
   font-size: 20px;
 }
 
-.quote-nav {
+/* .quote-nav {
   margin-top: -145px;
-}
+} */
