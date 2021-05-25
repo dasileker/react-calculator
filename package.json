@@ -1,20 +1,4 @@
 {
-<<<<<<< HEAD
-  "name": "calculator",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.11.5",
-    "@testing-library/react": "^11.1.0",
-    "@testing-library/user-event": "^12.1.10",
-    "big.js": "^6.0.1",
-    "eslint-config-airbnb": "^18.2.0",
-    "prop-types": "^15.7.2",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-router-dom": "^5.2.0",
-    "react-scripts": "4.0.0"
-=======
   "name": "calcule",
   "version": "0.1.0",
   "private": true,
@@ -31,7 +15,6 @@
     "react-scripts": "4.0.3",
     "react-test-renderer": "^17.0.2",
     "web-vitals": "^1.1.2"
->>>>>>> 47348e66858a86e9e984fbcaebd62c444ac4abac
   },
   "scripts": {
     "start": "react-scripts start",
@@ -60,17 +43,6 @@
     ]
   },
   "devDependencies": {
-<<<<<<< HEAD
-    "@wojtekmaj/enzyme-adapter-react-17": "^0.3.1",
-    "enzyme": "^3.11.0",
-    "eslint": "^7.12.1",
-    "eslint-config-airbnb": "^18.2.0",
-    "eslint-config-airbnb-base": "^14.2.0",
-    "eslint-plugin-import": "^2.22.1",
-    "react-test-renderer": "^17.0.1",
-    "stylelint": "^13.7.2",
-    "stylelint-config-standard": "^20.0.0",
-=======
     "@babel/core": "^7.14.3",
     "@babel/eslint-parser": "^7.14.3",
     "@babel/plugin-syntax-jsx": "^7.12.13",
@@ -86,7 +58,6 @@
     "eslint-plugin-react-hooks": "^4.2.0",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^21.0.0",
->>>>>>> 47348e66858a86e9e984fbcaebd62c444ac4abac
     "stylelint-csstree-validator": "^1.9.0",
     "stylelint-scss": "^3.18.0"
   }

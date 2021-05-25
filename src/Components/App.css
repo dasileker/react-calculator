@@ -12,9 +12,9 @@ body {
 }
 
 .navbar {
-  margin-top: -81px;
+  /* margin-top: -85px; */
   background: brown;
-  width: 1325px;
+  /* width: 1325px; */
 }
 
 .navbar h2 {
@@ -55,7 +55,7 @@ body {
 }
 
 .home-title {
-  margin-top: -310px;
+  margin-top: -410px;
 }
 
 .text {
