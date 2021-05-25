@@ -12,9 +12,7 @@ body {
 }
 
 .navbar {
-  /* margin-top: -81px; */
   background: brown;
-  
 }
 
 .navbar h2 {
@@ -54,15 +52,11 @@ body {
   color: white;
 }
 
-/* .home-title {
+.home-title {
   margin-top: -410px;
-} */
+}
 
 .text {
   margin-left: 20px;
   font-size: 20px;
 }
-
-/* .quote-nav {
-  margin-top: -145px;
-} */
