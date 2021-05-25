@@ -1,5 +1,5 @@
 body {
-  margin: 0;
+  /* margin: 0;
   font-family:
     -apple-system,
     BlinkMacSystemFont,
@@ -15,9 +15,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   min-height: 100vh;
-  display: flex;
-  /* justify-content: center; */
-  /* align-items: center; */
+  display: flex; */
+  /* justify-content: center; 
+  align-items: center; */
 }
 
 code {
