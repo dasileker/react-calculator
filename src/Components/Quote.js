@@ -4,6 +4,9 @@ import './App.css';
 
 const Quote = () => (
   <>
+    <div className="quote-nav">
+      {/* <NavBar /> */}
+    </div>
     <div className="calculator">
       <h1 className="quote">Quote of the day</h1>
       <p className="day-quote">
@@ -12,6 +15,7 @@ const Quote = () => (
           <span>Albert Einstein</span>
         </q>
       </p>
+
     </div>
   </>
 );
