@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import React from 'react';
+// import Home from './Home';
 import './App.css';
 
 const NavBar = () => (
@@ -9,7 +10,7 @@ const NavBar = () => (
       <ul>
         <Link to="./home"><li>Home</li></Link>
         <Link to="./app"><li>Calculator</li></Link>
-        <Link to="/Quote"><li>Quote</li></Link>
+        <Link to="./Quote"><li>Quote</li></Link>
       </ul>
 
     </div>
