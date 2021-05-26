@@ -16,7 +16,7 @@ const operate = (num1, num2, op) => {
       result = big1.times(big2);
       break;
     case '÷':
-      if (big2.toNumber() === 0) {
+      if (big2 === 0) {
         return 'Error: division by zero.';
       }
       result = big1.div(big2);
@@ -25,7 +25,7 @@ const operate = (num1, num2, op) => {
       throw new Error(`Invalid operator ${op}`);
   }
 
-  return result.toNumber().toString();
+  return result.toString();
 };
 
 export default operate;
