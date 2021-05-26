@@ -1,12 +1,8 @@
 import React from 'react';
-// import NavBar from './Nav';
 import './App.css';
 
 const Home = () => (
   <>
-    {/* <div className="home-title">
-      <NavBar />
-    </div> */}
     <div className="calculator">
       <h2 className="title">Welcome to Math-Magicians</h2>
       <div className="text">

@@ -1,12 +1,9 @@
 import React from 'react';
-// import NavBar from './Nav';
 import './App.css';
 
 const Quote = () => (
   <>
-    <div className="quote-nav">
-      {/* <NavBar /> */}
-    </div>
+    <div className="quote-nav" />
     <div className="calculator">
       <h1 className="quote">Quote of the day</h1>
       <p className="day-quote">

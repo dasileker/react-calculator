@@ -85,7 +85,7 @@ exports[`ButtonPanel Component renders correctly 1`] = `
         }
         type="button"
       >
-        9
+        8
       </button>
       <button
         onClick={[Function]}
@@ -97,7 +97,7 @@ exports[`ButtonPanel Component renders correctly 1`] = `
         }
         type="button"
       >
-        8
+        9
       </button>
       <button
         onClick={[Function]}

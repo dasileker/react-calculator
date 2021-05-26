@@ -15,7 +15,7 @@ describe('Home  Componenet', () => {
     const div = document.createElement('div');
     ReactDOM.render(<Home />, div);
   });
-  
+
   it('renders correctly', () => {
     const quote = create(<Quote />).toJSON();
     expect(quote).toMatchSnapshot();
@@ -25,7 +25,7 @@ describe('Home  Componenet', () => {
     const home = create(<Home />).toJSON();
     expect(home).toMatchSnapshot();
   });
-  
+
   // to not get confused I add this comment this is the calculator it's inside the app
   it('renders correctly', () => {
     const calculator = create(<App />).toJSON();

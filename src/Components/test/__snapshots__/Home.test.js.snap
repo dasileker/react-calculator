@@ -129,7 +129,7 @@ exports[`Home  Componenet renders correctly 3`] = `
         }
         type="button"
       >
-        9
+        8
       </button>
       <button
         onClick={[Function]}
@@ -141,7 +141,7 @@ exports[`Home  Componenet renders correctly 3`] = `
         }
         type="button"
       >
-        8
+        9
       </button>
       <button
         onClick={[Function]}
