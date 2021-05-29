@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom';
 import { create } from 'react-test-renderer';
 import Adapter from '@wojtekmaj/enzyme-adapter-react-17';
 import Enzyme from 'enzyme';
-import App from './App';
-import ButtonPanel from './ButtonPanel';
+import App from '../App';
+import ButtonPanel from '../ButtonPanel';
 
 Enzyme.configure({ adapter: new Adapter() });
 

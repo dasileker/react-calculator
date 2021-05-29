@@ -1,10 +1,62 @@
 body {
-  background: url(/src/Components/img.jpg) no-repeat;
-  background-size: cover;
+  background: rgb(231, 107, 5);
 }
 
 .calculator {
-  width: 700px;
+  /* margin-top: 300px; */
+  float: right;
+  margin-right: 500px;
+  width: 300px;
   display: flex;
   flex-direction: column;
+}
+
+.navbar {
+  background: brown;
+}
+
+.navbar h2 {
+  margin-top: 25px;
+  color: aqua;
+  margin-left: 20px;
+}
+
+.navbar ul li {
+  display: inline;
+  margin-left: 20px;
+}
+
+.navbar ul li:hover {
+  color: green;
+}
+
+.title {
+  margin-left: 30px;
+  color: green;
+}
+
+.calculator .home {
+  margin-left: 20px;
+  font-size: 19px;
+}
+
+.quote {
+  color: orange;
+}
+
+.day-quote {
+  font-size: 31px;
+}
+
+.day-quote span {
+  color: white;
+}
+
+.home-title {
+  margin-top: -410px;
+}
+
+.text {
+  margin-left: 20px;
+  font-size: 20px;
 }

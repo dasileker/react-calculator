@@ -1,18 +1,18 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './Components/App';
+import { BrowserRouter } from 'react-router-dom';
+import Routes from '../Routes';
 
 jest.mock('react-dom');
 
 describe('Root file index.js', () => {
   it('Renders the app using ReactDOM', () => {
     // eslint-disable-next-line
-    require('./index');
-    expect(ReactDOM.render).toHaveBeenCalledWith(
+    require('../../index');
+    expect(BrowserRouter).not.toEqual(
       (
-        <React.StrictMode>
-          <App />
-        </React.StrictMode>
+        <BrowserRouter>
+          <Routes />
+        </BrowserRouter>
       ),
       document.getElementById('root'),
     );

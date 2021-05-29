@@ -1,6 +1,50 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`ButtonPanel Component renders correctly 1`] = `
+exports[`Home  Componenet renders correctly 1`] = `
+Array [
+  <div
+    className="quote-nav"
+  />,
+  <div
+    className="calculator"
+  >
+    <h1
+      className="quote"
+    >
+      Quote of the day
+    </h1>
+    <p
+      className="day-quote"
+    >
+      <q>
+        Without mathematics, Everything around you is numbers.
+        <span>
+          Albert Einstein
+        </span>
+      </q>
+    </p>
+  </div>,
+]
+`;
+
+exports[`Home  Componenet renders correctly 2`] = `
+<div
+  className="calculator"
+>
+  <h2
+    className="title"
+  >
+    Welcome to Math-Magicians
+  </h2>
+  <div
+    className="text"
+  >
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui o!cia deserunt mollit anim id est laborum.
+  </div>
+</div>
+`;
+
+exports[`Home  Componenet renders correctly 3`] = `
 <div
   className="calculator"
 >
@@ -85,7 +129,7 @@ exports[`ButtonPanel Component renders correctly 1`] = `
         }
         type="button"
       >
-        9
+        8
       </button>
       <button
         onClick={[Function]}
@@ -97,7 +141,7 @@ exports[`ButtonPanel Component renders correctly 1`] = `
         }
         type="button"
       >
-        8
+        9
       </button>
       <button
         onClick={[Function]}

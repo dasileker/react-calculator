@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Enzyme from 'enzyme';
 import Adapter from '@wojtekmaj/enzyme-adapter-react-17';
-import Display from './Display';
+import Display from '../Display';
 
 Enzyme.configure({ adapter: new Adapter() });
 
