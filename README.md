@@ -45,8 +45,8 @@
 - Use `npm run test -- --coverage --watchAll=false` to run the unit tests and generate code coverage statistics.
  
 ## Live Demo 
-<a href="https://alahasiba.herokuapp.com/">
-  <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
+<a href="https://alhasiba.netlify.app/">
+  <img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy">
 </a>
 
 # Tools 
